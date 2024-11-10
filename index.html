@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <div class="box"   ">
+        <h3 class="result">***<span id="copy-msg"> copied!</span></h3>
+        <div class="variables">
+            <p>Password length:</p> <input type="number" name="length" id="length" min="6" max="20" step="1" required value="8">
+            <p>Include numbers:</p> <input type="checkbox" name="include-number" id="include-numbers" checked>
+            <p>Include symbols:</p> <input type="checkbox" name="include-special" id="include-special"  checked>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
